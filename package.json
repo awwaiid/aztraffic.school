@@ -10,5 +10,10 @@
   "dependencies": {
     "@nuxt/content": "^2.13.4",
     "nuxt": "^3.14.1592"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@tailwindcss/typography": "^0.5.15",
+    "sass-embedded": "^1.81.0"
   }
 }
