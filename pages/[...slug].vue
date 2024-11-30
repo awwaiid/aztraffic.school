@@ -1,5 +1,5 @@
 <template>
-  <main class="prose">
+  <main class="prose prose-invert">
     <ContentDoc />
   </main>
 </template>
@@ -9,7 +9,10 @@
 main {
   padding: 1em;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 2em auto;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: rgb(0 0 0 / 0.9);
 }
 
 h1 {
@@ -26,6 +29,12 @@ h2 {
 
 p {
   margin-bottom: 2em;
+}
+
+body {
+  // background image on black stretched to width and non-repeating y
+  background: url(/traffic-background.jpg) #000 no-repeat top center fixed;
+  //
 }
 
 </style>
