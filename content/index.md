@@ -8,15 +8,15 @@ Currently, we have 9 locations in the valley: Goodyear, Tolleson, Glendale, Surp
 
 ## What to expect
 
-You can expect PowerPoints and videos; of course, you’ll work on the workbook. This class is interactive, and you must participate to get credit.
+You can expect PowerPoints and videos; of course, you'll work on the workbook. This class is interactive, and you must participate to get credit.
 
-When the class is over, we, the school, will automatically, electronically notify the Arizona Motor Vehicle Department (MVD) that you have taken and passed the class. It will take the MVD 2-3 business days to do their processing. Also, after the class, your instructor will send you a certificate of completion for your records.
+When the class is over, we, the school, will automatically electronically notify the Arizona Motor Vehicle Division (MVD) that you have taken and passed the class. It will take the MVD 2-3 business days to do their processing. Also, after the class, your instructor will send you a certificate of completion for your records.
 
 ## In-Person Classes
 
 * Please be there by 7:45 am to get checked in.
 * You will need your photo ID and $129 payment or proof of payment to check in.
-* In-person class costs $129. You can pay via invoice, money order, or cash. It must be the exact amount if you choose to pay in cash.  The instructor in the class will not be able to give you change. If you arrive with the incorrect amount, you must step aside and contact us at our office (623-335-1555) so we can send you an invoice. Please plan ahead and let us know how you want to pay. You can’t wait until 7:45 or later and then ask for an invoice, or you will be late for class. YOU CANNOT BE LATE.
+* In-person class costs $129. You can pay via invoice, money order, or cash. It must be the exact amount if you choose to pay in cash. The instructor in the class will not be able to give you change. If you arrive with the incorrect amount, you must step aside and contact us at our office (623-335-1555) so we can send you an invoice. Please plan ahead and let us know how you want to pay. You can't wait until 7:45 or later and then ask for an invoice, or you will be late for class. YOU CANNOT BE LATE.
 
 ## Virtual Class Process & Information
 
@@ -37,4 +37,3 @@ When the class is over, we, the school, will automatically, electronically notif
 * Proper dress attire will be required. You must wear appropriate clothing free of offensive or disturbing content. The background must be neutral. This is subject to instructor discretion. Your instructor must see your face and hear you speak during instructional time. You will need a quiet area free of distractions, minimal background noise, and the Participant Guide (the workbook). This live Zoom class will be monitored and possibly recorded by the National Safety Council / MVD.
 
 **IMPORTANT: You must arrange for childcare, as full attention and participation are required during the class**
-
