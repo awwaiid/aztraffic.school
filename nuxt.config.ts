@@ -21,5 +21,15 @@ export default defineNuxtConfig({
     }
   },
 
-  compatibilityDate: '2024-11-29'
+  compatibilityDate: '2024-11-29',
+
+  app: {
+    head: {
+      title: "$129 Arizona Discount Traffic Survival School",
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      ]
+    }
+  }
+
 })
