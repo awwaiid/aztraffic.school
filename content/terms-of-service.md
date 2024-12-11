@@ -4,10 +4,14 @@
 By providing your phone number and agreeing to receive text messages from Creative Safety Solutions, LLC (dba $129 Arizona Discount Traffic Survival School) you accept these Terms of Service and Privacy Policy.
 
 ## 2. SMS Communications
-- You agree to receive text messages related to your enrollment, class schedules, updates, and reminders
-- Message and data rates may apply according to your wireless carrier plan
-- You can opt out of text messages at any time by replying STOP to any message
-- Text messages may be sent using an automatic telephone dialing system
+- When you call to sign up for classes we will collect your phone number verify that you agree to receive text messages related to your enrollment, class schedules, updates, and reminders
+- You may also text us directly instead of calling, and by sending us a text you agree to receive text messages related to your enrollment, class schedules, updates, and reminders
+- You will receive 1-2 messages on average leading up to your class, and answers to any questions you hvae
+- Message and data rates may apply
+- You can opt out of text messages at any time by replying STOP to any message or calling us
+- You can reply with HELP to get help
+- We will not send you any text messages other than those related to your enrollment, class schedules, updates, and reminders. We will not send you promotional or marketing messages
+- We will not share your contact information with any 3rd party other than than for submitting your enrollment to the Arizona Chapter of the National Safety Council
 
 ## 3. Class Policies
 - Students must complete the full course as required by Arizona law
