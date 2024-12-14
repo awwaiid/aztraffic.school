@@ -23,53 +23,14 @@ By providing your phone number and agreeing to receive text messages from Creati
 - Refunds will be issued according to Arizona state regulations
 - No refunds will be given after course completion
 
-# Privacy Policy
-
-## 1. Information Collection
-We collect the following information:
-- Name and contact information
-- Driver's license information
-- Course enrollment and completion status
-- Payment information
-- Text message opt-in status and history
-
-## 2. Use of Information
-Your information will be used to:
-- Communicate course details and updates
-- Process payments
-- Track course completion
-- Comply with Arizona state requirements
-- Send text message communications you've opted into
-
-## 3. Information Sharing
-We will not share your personal information except:
-- As required by Arizona state law
-- With authorized service providers who assist in our operations
-- To protect our rights or comply with legal processes
-
-## 4. Text Message Data
-- Phone numbers are stored securely
-- Message history is retained for legal compliance
-- Opt-out requests are processed within 24 hours
-
-## 5. Data Security
-We implement reasonable security measures to protect your information from unauthorized access or disclosure.
-
-## 6. Your Rights
-You have the right to:
-- Access your personal information
-- Request corrections to your information
-- Opt out of text messages
-- Request deletion of information (subject to legal requirements)
-
-## 7. Contact Information
-For privacy concerns or to update your information, contact:
+## 5. Contact Information
+For any concerns or to update your information, contact:
 - Creative Safety Solutions, LLC (dba $129 Arizona Discount Traffic Survival School)<br>
 - Address: PO Box 2 Waddell, AZ 85355
 - Phone: (623) 335-1555
 - Email: kandy.trafficsafety@gmail.com
 
-## 8. Changes to Privacy Policy
-We reserve the right to update this Privacy Policy.
+## 6. Changes to Terms of Service
+We reserve the right to update this Terms of Service.
 
-Last Updated: 2024-11-29
+Last Updated: 2024-12-13
