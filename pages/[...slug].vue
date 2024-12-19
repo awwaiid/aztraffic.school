@@ -1,5 +1,5 @@
 <template>
-  <main class="prose prose-invert">
+  <main class="prose prose-invert border-2 border-white">
 
     <div class="text-center">
       <h1><a href="/">$129 Arizona Discount Traffic Survival School</a></h1>
