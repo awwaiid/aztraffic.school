@@ -2,8 +2,6 @@ Welcome! We offer a one-day, eight-hour class, following all of the requirements
 
 Currently, we have 9 locations in the valley: Goodyear, Tolleson, Glendale, Surprise, Tempe, Mesa Gateway, Gilbert, Chandler, and Queen Creek. Other places are in the works 😊
 
-Our next class is on Friday, January 3rd
-
 **CALL US at <a href="tel:6233351555">(623) 335-1555</a> for the current available classes and to get scheduled. We'll be happy to go over everything live on the phone!**
 
 <hr class="m-5" />
