@@ -28,10 +28,10 @@ By providing your phone number and agreeing to receive text messages from Creati
 For any concerns or to update your information, contact:
 - Creative Safety Solutions, LLC (dba $129 Arizona Discount Traffic Survival School)<br>
 - Address: PO Box 2 Waddell, AZ 85355
-- Phone: (623) 335-1555
+- Phone: (602) 892-3570
 - Email: kandy.trafficsafety@gmail.com
 
 ## 6. Changes to Terms of Service
 We reserve the right to update this Terms of Service.
 
-Last Updated: 2024-12-26
+Last Updated: 2025-01-01

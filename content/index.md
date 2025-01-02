@@ -1,6 +1,6 @@
 Welcome! We offer a one-day, eight-hour class, following all of the requirements from the <a href="https://azstatetss.org/">Arizona Chapter of the National Safety Council</a>. All our classes are from 8:00 am to 4:30 pm and are $129 (plus some handling fees for online classes).
 
-**CALL US at <a href="tel:6233351555">(623) 335-1555</a> for the current available classes and to get scheduled. We'll be happy to go over everything live on the phone!**
+**CALL US at <a href="tel:6028923570">(602) 892-3570</a> for the current available classes and to get scheduled. We'll be happy to go over everything live on the phone!**
 
 :locations
 
@@ -20,7 +20,7 @@ When the class is over, we, the school, will automatically electronically notify
 
 ## Virtual Class Process & Information
 
-* You must get a once-in-a-lifetime waiver from the Arizona Chapter National Safety Council (602) 222-3381.
+* You must get a once-in-a-lifetime waiver from the Arizona Chapter National Safety Council <a href="tel:6022223381">(602) 222-3381</a>.
 * After you have been notified that you were granted the waiver, please call or text us, and we will register you for a class.
 * Our Virtual/Online class costs $129, which includes the workbook but not the shipping and handling ($10)
 * **A workbook is required for this class!** It is unfortunately not available in a digital format. If you cannot pick up the workbook in person (and pay the $129 in cash or money order), we will send it to you via FedEx. We need your physical address because FedEx will not deliver to a PO box. Please include any extra numbers, such as apartment, building, space, etc.
