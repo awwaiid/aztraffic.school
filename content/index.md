@@ -1,8 +1,8 @@
 Welcome! We offer a one-day, eight-hour class, following all of the requirements from the <a href="https://azstatetss.org/">Arizona Chapter of the National Safety Council</a>. All our classes are from 8:00 am to 4:30 pm and are $129 (plus some handling fees for online classes).
 
-Currently, we have 9 locations in the valley: Goodyear, Tolleson, Glendale, Surprise, Tempe, Mesa Gateway, Gilbert, Chandler, and Queen Creek. Other places are in the works 😊
-
 **CALL US at <a href="tel:6233351555">(623) 335-1555</a> for the current available classes and to get scheduled. We'll be happy to go over everything live on the phone!**
+
+:locations
 
 <hr class="m-5" />
 

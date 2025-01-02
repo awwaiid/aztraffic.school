@@ -16,7 +16,7 @@
     <ContentDoc />
 
     <hr>
-    <small>(c) 2024 Creative Safety Solutions, LLC ($129 Arizona Discount Traffic Survival School) - <a href="/terms-of-service">Terms of Service</a> - <a href="/privacy-policy">Privacy Policy</a></small>
+    <small>© 2024-2025 Creative Safety Solutions, LLC ($129 Arizona Discount Traffic Survival School) - <a href="/terms-of-service">Terms of Service</a> - <a href="/privacy-policy">Privacy Policy</a></small>
   </main>
 </template>
 
