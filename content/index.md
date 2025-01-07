@@ -1,4 +1,4 @@
-Welcome! We offer a one-day, eight-hour class, following all of the requirements from the <a href="https://azstatetss.org/">Arizona Chapter of the National Safety Council</a>. All our classes are from 8:00 am to 4:30 pm and are $129 (plus some handling fees for online classes).
+Welcome! We offer a one-day, eight-hour class. All our classes are from 8:00 am to 4:30 pm and are $129 (plus some handling fees for virtual classes).
 
 **CALL US at <a href="tel:6028923570">(602) 892-3570</a> for the current available classes and to get scheduled. We'll be happy to go over everything live on the phone!**
 
@@ -10,7 +10,7 @@ Welcome! We offer a one-day, eight-hour class, following all of the requirements
 
 ## **General Information**
 
-This interactive course includes PowerPoint presentations, videos, and workbook exercises. Active participation is mandatory for course credit. We will electronically notify the Arizona MVD upon completion, which typically processes the information within 2-3 business days. Your instructor will provide you with a completion certificate for your records.
+This interactive course includes PowerPoint presentations, videos, and workbook exercises. Active participation is mandatory for course credit. We will electronically notify the Arizona MVD upon completion. Your instructor will provide you with a completion certificate for your records.
 
 ## **In-Person Class Details**
 
@@ -60,7 +60,7 @@ This interactive course includes PowerPoint presentations, videos, and workbook 
 2. Participation:
    * Must be visible and audible throughout class
    * Full attention required
-   * Class may be monitored or recorded by the National Safety Council/MVD
+   * Class may be monitored or recorded
 
 **IMPORTANT: You must arrange for childcare, as full attention and participation are required during the class**
 
