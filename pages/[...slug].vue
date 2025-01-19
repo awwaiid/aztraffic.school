@@ -5,7 +5,7 @@
       <h1><a href="/">$129 Arizona Discount Traffic Survival School</a></h1>
       <small>
         <b>
-          For all services, call <a href="tel:6233351555">(623) 335-1555</a>
+          For all services, call <a href="tel:6028023570">(602) 802-3570</a>
           or email <a href="mailto:kandy.trafficsafety@gmail.com">kandy.trafficsafety@gmail.com</a>
         </b>
       </small>
