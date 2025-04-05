@@ -1,3 +1,5 @@
+[English](/) - [Español](/index.es)
+
 Welcome! We offer a one-day, eight-hour class. All our classes are from 8:00 am to 4:30 pm and are $129 (plus some handling fees for virtual classes).
 
 **CALL US at <a href="tel:6028923570">(602) 892-3570</a> for the current available classes and to get scheduled. We'll be happy to go over everything live on the phone!**
