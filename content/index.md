@@ -67,3 +67,16 @@ This interactive course includes PowerPoint presentations, videos, and workbook 
 **IMPORTANT: You must arrange for childcare, as full attention and participation are required during the class**
 
 Note: The instructor reserves the right to enforce the dress code and participation requirements. Technical preparation, including Zoom familiarity, is the participant's responsibility. Zoom video tutorials are available for reference.
+
+
+# Search for Classes and Register
+
+Use the below to find classes and register. This is a service of the Arizona Chapter, National Safety Council.
+
+<iframe src="https://azstatetss.org/remote/student-reg-search.php?school_id=5175&key=ffd2257b"
+        frameborder="0"
+        height="800"
+        width="100%"
+        style="min-height:800px;">
+</iframe>
+

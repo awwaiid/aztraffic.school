@@ -67,3 +67,15 @@ Este curso interactivo incluye presentaciones de PowerPoint, videos y ejercicios
 **IMPORTANTE: Debe organizar el cuidado de los niños, ya que se requiere atención completa y participación durante la clase**
 
 Nota: El instructor se reserva el derecho de hacer cumplir el código de vestimenta y los requisitos de participación. La preparación técnica, incluida la familiaridad con Zoom, es responsabilidad del participante. Los tutoriales en video de Zoom están disponibles como referencia.
+
+# Búsqueda de Clases y Registro
+
+Utilice lo siguiente para encontrar clases y registrarse. Este es un servicio del Capítulo de Arizona del Consejo Nacional de Seguridad.
+
+<iframe src="https://azstatetss.org/remote/student-reg-search.php?school_id=5175&key=ffd2257b"
+        frameborder="0"
+        height="800"
+        width="100%"
+        style="min-height:800px;">
+</iframe>
+
