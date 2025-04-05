@@ -10,7 +10,8 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    '/': { prerender: true }
+    '/': { prerender: true },
+    '/index.es': { prerender: true },
   },
 
   tailwindcss: {
