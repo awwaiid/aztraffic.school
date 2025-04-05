@@ -1,20 +1,14 @@
-# Content v2 Minimal Starter
+# $129 Arizona Discount Traffic Survival School
 
-Look at the [Content documentation](https://content.nuxt.com/) to learn more.
+This is a stock nuxt-content site powering [aztraffic.school](https://aztraffic.school) aka [129aztss.com](https://129aztss.com).
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
 # npm
 npm install
-
-# pnpm
-pnpm install
 ```
 
 ## Development Server
@@ -27,16 +21,4 @@ npm run dev
 
 ## Production
 
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Production is automatically built and deployed as a static site with github actions by pushing the `main` branch.
