@@ -1,8 +1,12 @@
 [English](/) - [Español](/index.es)
 
-¡Bienvenidos! Ofrecemos una clase de un día, de ocho horas. Todas nuestras clases son de 8:00 am a 4:30 pm y cuestan $129 (más algunas tarifas de gestión para clases virtuales).
+¡Bienvenidos! Estamos autorizados por el MVD de Arizona y el Capítulo AZ del Consejo Nacional de Seguridad para enseñar la Escuela de Supervivencia de Tráfico, ¡y nos encanta lo que hacemos!
 
-**LLÁMENOS al <a href="tel:6028923570">(602) 892-3570</a> para conocer las clases disponibles actualmente y programar su asistencia. ¡Estaremos encantados de revisar todo personalmente por teléfono!**
+La Escuela de Supervivencia de Tráfico es una clase de un día, de ocho horas, para personas que asisten voluntariamente o que están obligadas a asistir por el MVD o un tribunal.
+
+Ofrecemos clases en inglés y español tanto virtualmente (a través de Zoom) como en persona. Todas nuestras clases son de 8:00 a.m. a 4:30 p.m. y cuestan $129 (más algunas tarifas de gestión para clases virtuales).
+
+LLÁMENOS al <a href="tel:6028923570">(602) 892-3570</a> para informarse sobre las clases actualmente disponibles y programar su asistencia. ¡Estaremos encantados de revisar todo personalmente por teléfono!
 
 :locations
 

@@ -1,8 +1,12 @@
 [English](/) - [Español](/index.es)
 
-Welcome! We offer a one-day, eight-hour class. All our classes are from 8:00 am to 4:30 pm and are $129 (plus some handling fees for virtual classes).
+Welcome! We are licensed by the Arizona MVD and the AZ Chapter National Safety Council to teach Traffic Survival School, and we love what we do!
 
-**CALL US at <a href="tel:6028923570">(602) 892-3570</a> for the current available classes and to get scheduled. We'll be happy to go over everything live on the phone!**
+Arizona Traffic Survival School is a one-day, eight-hour class for people who voluntarily attend or are required to attend by the MVD or a court.
+
+We offer classes in English and Spanish both virtually (via Zoom) and in person. All our classes are from 8:00 a.m. to 4:30 p.m. and cost $129 (plus some handling fees for virtual classes).
+
+CALL US at (602) 892-3570 to find out about the currently available classes and to get scheduled. We'll be happy to go over everything live on the phone!
 
 :locations
 
