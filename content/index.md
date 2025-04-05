@@ -77,6 +77,8 @@ Note: The instructor reserves the right to enforce the dress code and participat
 
 Use the below to find classes and register. This is a service of the Arizona Chapter, National Safety Council.
 
+Contrary to what the form says, **YOU DO NOT NEED ANY OF THESE TO ENROLL** - "Traffic Survival School Order letter, Traffic Survival School Suspension letter, Proof of Assignment, or a copy of your Motor Vehicle Record (MVR)." You may ignore this part of the form!
+
 <iframe src="https://azstatetss.org/remote/student-reg-search.php?school_id=5175&key=ffd2257b"
         frameborder="0"
         height="800"

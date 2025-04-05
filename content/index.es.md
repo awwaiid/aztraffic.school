@@ -76,6 +76,8 @@ Nota: El instructor se reserva el derecho de hacer cumplir el código de vestime
 
 Utilice lo siguiente para encontrar clases y registrarse. Este es un servicio del Capítulo de Arizona del Consejo Nacional de Seguridad.
 
+Contrario a lo que dice el formulario, **USTED NO NECESITA NINGUNO DE ESTOS PARA INSCRIBIRSE** - "Carta de orden de Escuela de Supervivencia de Tráfico, Carta de suspensión de Escuela de Supervivencia de Tráfico, Comprobante de asignación, o una copia de su Registro de Vehículo Motorizado (MVR)." ¡Puede ignorar esta parte del formulario!
+
 <iframe src="https://azstatetss.org/remote/student-reg-search.php?school_id=5175&key=ffd2257b"
         frameborder="0"
         height="800"
