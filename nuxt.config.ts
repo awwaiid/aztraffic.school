@@ -1,10 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: [
-    '@nuxt/content',
-    '@nuxtjs/tailwindcss'
-  ],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-gtag'],
   content: {
     documentDriven: true
   },
@@ -20,6 +17,10 @@ export default defineNuxtConfig({
         require('@tailwindcss/typography')
       ]
     }
+  },
+
+  gtag: {
+    id: 'G-14DSKD6GXC'
   },
 
   compatibilityDate: '2024-11-29',
