@@ -6,7 +6,7 @@ La Escuela de Supervivencia de Tráfico es una clase de un día, de ocho horas, 
 
 Ofrecemos clases en inglés y español tanto virtualmente (a través de Zoom) como en persona. Todas nuestras clases son de 8:00 a.m. a 4:30 p.m. y cuestan $129 (más algunas tarifas de gestión para clases virtuales).
 
-LLÁMENOS al <a href="tel:6028923570">(602) 892-3570</a> para informarse sobre las clases actualmente disponibles y programar su asistencia. ¡Estaremos encantados de revisar todo personalmente por teléfono!
+LLÁMENOS al <a href="tel:6028991922">(602) 899-1922</a> para informarse sobre las clases actualmente disponibles y programar su asistencia. ¡Estaremos encantados de revisar todo personalmente por teléfono!
 
 :locations
 
