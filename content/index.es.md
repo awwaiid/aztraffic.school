@@ -4,7 +4,7 @@
 
 La Escuela de Supervivencia de Tráfico es una clase de un día, de ocho horas, para personas que asisten voluntariamente o que están obligadas a asistir por el MVD o un tribunal.
 
-Ofrecemos clases en inglés y español tanto virtualmente (a través de Zoom) como en persona. Todas nuestras clases son de 8:00 a.m. a 4:30 p.m. y cuestan $129 (más algunas tarifas de gestión para clases virtuales).
+Ofrecemos clases en inglés y español tanto virtualmente (a través de Zoom) como en persona. Todas nuestras clases son de 8:00 a.m. a 4:30 p.m. y cuestan $139 (más algunas tarifas de gestión para clases virtuales).
 
 LLÁMENOS al <a href="tel:6028991922">(602) 899-1922</a> para informarse sobre las clases actualmente disponibles y programar su asistencia. ¡Estaremos encantados de revisar todo personalmente por teléfono!
 
@@ -21,7 +21,7 @@ Este curso interactivo incluye presentaciones de PowerPoint, videos y ejercicios
 ## **Detalles de la Clase Presencial**
 
 * Hora de llegada: 7:45 AM para registrarse
-* Costo: $129 (se requiere cantidad exacta)
+* Costo: $139 (se requiere cantidad exacta)
 * Requisitos al registrarse:
   * Identificación con foto válida
   * Pago o comprobante de pago
@@ -36,13 +36,13 @@ Este curso interactivo incluye presentaciones de PowerPoint, videos y ejercicios
    * Exención única del Consejo Nacional de Seguridad Capítulo Arizona (602-222-3381)
    * Contáctenos después de recibir la aprobación de la exención para registrarse
 2. Estructura de costos:
-   * Costo base: $129
+   * Costo base: $139
    * Envío y manejo: $10 (para entrega del cuaderno de trabajo)
-   * Costo total típico: $139
+   * Costo total típico: $149
 3. Materiales requeridos:
    * Cuaderno de trabajo físico (no hay versión digital disponible)
    * Opciones de recogida:
-     * Recogida en persona (se requiere pago de $129)
+     * Recogida en persona (se requiere pago de $139)
      * Entrega por FedEx a dirección física (no apartados postales)
 
 ## **Requisitos Tecnológicos para Clases Virtuales**

@@ -4,7 +4,7 @@ Welcome! We are licensed by the Arizona MVD and the AZ Chapter National Safety C
 
 Arizona Traffic Survival School is a one-day, eight-hour class for people who voluntarily attend or are required to attend by the MVD or a court.
 
-We offer classes in English and Spanish both virtually (via Zoom) and in person. All our classes are from 8:00 a.m. to 4:30 p.m. and cost $129 (plus some handling fees for virtual classes).
+We offer classes in English and Spanish both virtually (via Zoom) and in person. All our classes are from 8:00 a.m. to 4:30 p.m. and cost $139 (plus some handling fees for virtual classes).
 
 CALL US at (602) 892-3570 to find out about the currently available classes and to get scheduled. We'll be happy to go over everything live on the phone!
 
@@ -21,7 +21,7 @@ This interactive course includes PowerPoint presentations, videos, and workbook 
 ## **In-Person Class Details**
 
 * Arrival Time: 7:45 AM for check-in
-* Cost: $129 (exact amount required)
+* Cost: $139 (exact amount required)
 * Required at Check-in:
   * Valid photo ID
   * Payment or proof of payment
@@ -36,13 +36,13 @@ This interactive course includes PowerPoint presentations, videos, and workbook 
    * One-time waiver from Arizona Chapter National Safety Council (602-222-3381)
    * Contact us after receiving waiver approval for registration
 2. Cost Structure:
-   * Base cost: $129
+   * Base cost: $139
    * Shipping and handling: $10 (for workbook delivery)
-   * Total typical cost: $139
+   * Total typical cost: $149
 3. Required Materials:
    * Physical workbook (no digital version available)
    * Pickup options:
-     * In-person pickup ($129 payment required)
+     * In-person pickup ($139 payment required)
      * FedEx delivery to physical address (no PO boxes)
 
 ## **Technology Requirements for Virtual Classes**

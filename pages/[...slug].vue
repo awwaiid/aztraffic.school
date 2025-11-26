@@ -2,7 +2,7 @@
   <main class="prose prose-invert border-2 border-white">
 
     <div class="text-center">
-      <h1><a href="/">$129 Arizona Discount Traffic Survival School</a></h1>
+      <h1><a href="/">$139 Arizona Discount Traffic Survival School</a></h1>
       <small>
         <b>
           For all services, call <a href="tel:6028923570">(602) 892-3570</a>
@@ -16,7 +16,7 @@
     <ContentDoc />
 
     <hr>
-    <small>© 2024-2025 Creative Safety Solutions, LLC ($129 Arizona Discount Traffic Survival School) - <a href="/terms-of-service">Terms of Service</a> - <a href="/privacy-policy">Privacy Policy</a></small>
+    <small>© 2024-2025 Creative Safety Solutions, LLC ($139 Arizona Discount Traffic Survival School) - <a href="/terms-of-service">Terms of Service</a> - <a href="/privacy-policy">Privacy Policy</a></small>
   </main>
 </template>
 
