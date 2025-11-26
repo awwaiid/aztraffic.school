@@ -1,6 +1,6 @@
-# $129 Arizona Discount Traffic Survival School
+# $139 Arizona Discount Traffic Survival School
 
-This is a stock nuxt-content site powering [aztraffic.school](https://aztraffic.school) aka [129aztss.com](https://129aztss.com).
+This is a stock nuxt-content site powering [aztraffic.school](https://aztraffic.school) aka [139aztss.com](https://139aztss.com).
 
 ## Setup
 

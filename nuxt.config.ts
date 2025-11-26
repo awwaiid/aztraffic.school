@@ -27,7 +27,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "$129 Arizona Discount Traffic Survival School",
+      title: "$139 Arizona Discount Traffic Survival School",
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       ]
