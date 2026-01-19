@@ -27,7 +27,7 @@ This interactive course includes PowerPoint presentations, videos, and workbook 
   * Payment or proof of payment
 * Payment Options:
   * Invoice (must be requested in advance)
-  * Money order
+  * Money order (payable to $139 AZ Discount TSS)
   * Cash (exact amount only, no change provided)
 
 ## **Virtual Class Requirements**
