@@ -27,7 +27,7 @@ Este curso interactivo incluye presentaciones de PowerPoint, videos y ejercicios
   * Pago o comprobante de pago
 * Opciones de pago:
   * Factura (debe solicitarse con anticipación)
-  * Giro postal (a nombre de AZ Discount TSS)
+  * Giro postal (a nombre de $139 AZ Discount TSS)
   * Efectivo (solo cantidad exacta, no se proporciona cambio)
 
 ## **Requisitos para Clases Virtuales**
