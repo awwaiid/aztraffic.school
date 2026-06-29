@@ -39,11 +39,14 @@ img{max-width:100%}
 
 /* ---- Sticky nav ---- */
 header.nav{position:sticky; top:0; z-index:50; background:rgba(251,246,238,.92); backdrop-filter:blur(10px); border-bottom:1px solid var(--line)}
-header.nav .wrap{display:flex; flex-wrap:nowrap; align-items:center; justify-content:space-between; padding-top:14px; padding-bottom:14px; gap:16px}
+header.nav .wrap{display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; padding-top:14px; padding-bottom:14px; gap:16px; row-gap:10px}
 .brand{display:flex; align-items:center; gap:12px; text-decoration:none; color:var(--ink); flex:none}
 .brand .mark{flex:none; height:42px; width:auto; min-width:42px; padding:0 11px; border-radius:11px; background:linear-gradient(135deg,var(--gold),var(--clay)); display:grid; place-items:center; color:#fff; font-family:'Fraunces',Georgia,serif; font-weight:700; font-size:1.05rem; letter-spacing:-.01em; white-space:nowrap; box-shadow:var(--shadow)}
-.brand b{font-family:'Fraunces',Georgia,serif; font-weight:700; font-size:1.06rem; display:block; line-height:1.05; white-space:nowrap}
-.brand span small,.brand small{font-size:.74rem; color:var(--muted); letter-spacing:.02em; display:block}
+/* Full legal name + Creative Safety block: flows onto its own full-width
+   line below the $139 mark and the rest of the nav items. */
+.brand-name{flex-basis:100%; display:block; text-decoration:none; color:var(--ink)}
+.brand-name b{font-family:'Fraunces',Georgia,serif; font-weight:700; font-size:1.06rem; display:block; line-height:1.15}
+.brand-name small{font-size:.74rem; color:var(--muted); letter-spacing:.02em; display:block}
 nav.menu{display:flex; gap:26px; align-items:center}
 nav.menu a{text-decoration:none; color:var(--ink); font-weight:500; font-size:.95rem; white-space:nowrap}
 nav.menu a:hover{color:var(--clay)}
