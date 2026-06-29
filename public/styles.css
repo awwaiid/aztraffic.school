@@ -17,15 +17,21 @@
   --radius:     16px;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+/* overflow-x:clip prevents stray horizontal scroll on phones without
+   creating a scroll container (so the sticky nav keeps working). */
+html{scroll-behavior:smooth; overflow-x:clip}
 body{
   margin:0; background:var(--sand); color:var(--ink);
   font-family:'Inter',system-ui,sans-serif; font-size:17px; line-height:1.65;
   -webkit-font-smoothing:antialiased;
+  overflow-x:clip;
 }
 h1,h2,h3{font-family:'Fraunces',Georgia,serif; line-height:1.08; font-weight:600; letter-spacing:-.01em; margin:0}
 a{color:var(--clay-dk)}
 img{max-width:100%}
+iframe{max-width:100%}
+/* Long words / URLs (e.g. in the legal pages) shouldn't force overflow */
+p,li,h1,h2,h3,.lead{overflow-wrap:break-word}
 .wrap{max-width:1140px; margin:0 auto; padding:0 24px}
 .eyebrow{font-family:'Inter';font-size:.78rem; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--clay); margin:0 0 14px}
 
@@ -158,8 +164,10 @@ section{padding:74px 0}
 .register .section-head p{color:#d6c6b2}
 .reg-tip{background:rgba(217,164,65,.14); border:1px solid rgba(217,164,65,.4); border-radius:14px; padding:18px 22px; margin-bottom:24px; font-size:.96rem; color:#f4ead9}
 .reg-tip b{color:var(--gold)}
-.reg-frame{background:#fff; border-radius:var(--radius); padding:8px; box-shadow:var(--shadow)}
-.reg-frame iframe{width:100%; min-height:560px; border:0; border-radius:10px; display:block}
+.reg-frame{background:#fff; border-radius:var(--radius); padding:8px; box-shadow:var(--shadow); overflow:hidden}
+/* width:1px + min-width:100% stops iOS Safari from expanding the iframe to
+   its content width (a common cause of mobile horizontal scroll). */
+.reg-frame iframe{width:1px; min-width:100%; min-height:560px; border:0; border-radius:10px; display:block}
 .reg-or{text-align:center; margin:26px 0 0; font-size:1.02rem; color:#d6c6b2}
 .reg-or a{color:var(--gold); font-weight:700; text-decoration:none}
 
