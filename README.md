@@ -20,6 +20,8 @@ Everything that gets published lives in [`public/`](./public):
 | `favicon.ico`, `*.jpg`, `*.png` | Static assets |
 
 > **Naming:** the official school name is **"$139 AZ Discount Traffic Survival School"**. Always include the `$139` prefix — never use the bare "AZ Discount Traffic Survival School" (that's a different, competing school).
+>
+> **Spanish:** all Spanish copy (`index.es.html`, etc.) should use **Arizona Spanish** — the Spanish actually spoken in Arizona — not generic/Castilian Spanish.
 
 ## Editing
 
