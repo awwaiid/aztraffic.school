@@ -1,62 +1,51 @@
 <template>
-  <main class="prose prose-invert border-2 border-white">
-
-    <div class="text-center">
-      <h1><a href="/">$139 Arizona Discount Traffic Survival School</a></h1>
-      <small>
-        <b>
-          For all services, call <a href="tel:6028923570">(602) 892-3570</a>
-          or email <a href="mailto:kandy.trafficsafety@gmail.com">kandy.trafficsafety@gmail.com</a>
-        </b>
-      </small>
+  <div>
+    <div class="topbar">
+      <div class="wrap">
+        <span>Licensed by the Arizona MVD &amp; trained by the AZ Chapter, National Safety Council</span>
+        <span class="lang">
+          <a href="/">English</a>
+          <a href="/index.es">Español</a>
+        </span>
+      </div>
     </div>
 
-    <hr class="m-5"/>
+    <header class="nav">
+      <div class="wrap">
+        <NuxtLink class="brand" to="/">
+          <span class="mark">139</span>
+          <span><b>AZ Discount Traffic Survival School</b><small>Creative Safety Solutions, LLC</small></span>
+        </NuxtLink>
+        <div class="nav-cta">
+          <a class="btn btn-call" href="tel:6028923570">📞 (602) 892-3570</a>
+        </div>
+      </div>
+    </header>
 
-    <ContentDoc />
-
-    <hr>
-    <small>© 2024-2025 Creative Safety Solutions, LLC ($139 Arizona Discount Traffic Survival School) - <a href="/terms-of-service">Terms of Service</a> - <a href="/privacy-policy">Privacy Policy</a></small>
-  </main>
+    <main class="inner-page">
+      <div class="wrap">
+        <ContentDoc />
+        <hr style="margin: 2rem 0; border-color: var(--line)">
+        <p style="font-size:.88rem; color: var(--muted)">
+          © 2024–2025 Creative Safety Solutions, LLC ($139 Arizona Discount Traffic Survival School) —
+          <NuxtLink to="/terms-of-service">Terms of Service</NuxtLink> ·
+          <NuxtLink to="/privacy-policy">Privacy Policy</NuxtLink>
+        </p>
+      </div>
+    </main>
+  </div>
 </template>
 
-<style lang="scss">
-
-main {
-  padding: 2em;
-  /* width: auto; */
-  max-width: 1000px !important;
-  margin: 2em auto;
-  border: 5px solid black;
-  border-radius: 20px;
-  /* background-color: rgb(0 0 0 / 0.9); */
-  backdrop-filter: sepia(50%) brightness(10%) blur(5px);
+<style scoped>
+.inner-page {
+  padding: 48px 0 64px;
 }
 
-h1 {
-  font-weight: 500;
-  font-size: 3rem;
-  margin-bottom: 0 !important;
-  a {
-    text-decoration: none !important;
-  }
-}
-
-h2 {
-  font-weight: 500;
-  font-size: 2rem;
-  margin-bottom: 1em;
-}
-
-p {
-  margin-bottom: 2em;
-}
-
-body {
-  // background image on black stretched to width and non-repeating y
-  background: url(/traffic-background.jpg) #000 no-repeat top center fixed;
-  padding: 1em;
-  //
-}
-
+.inner-page :deep(h1) { font-family: 'Fraunces', Georgia, serif; font-size: 2.2rem; margin: 0 0 1rem; color: var(--ink) }
+.inner-page :deep(h2) { font-family: 'Fraunces', Georgia, serif; font-size: 1.5rem; margin: 2rem 0 .75rem; color: var(--ink) }
+.inner-page :deep(h3) { font-family: 'Fraunces', Georgia, serif; font-size: 1.2rem; margin: 1.5rem 0 .5rem; color: var(--ink) }
+.inner-page :deep(p) { margin: 0 0 1.2rem; color: #43352a }
+.inner-page :deep(ul), .inner-page :deep(ol) { padding-left: 1.5rem; margin: 0 0 1.2rem; color: #43352a }
+.inner-page :deep(li) { margin: .3rem 0 }
+.inner-page :deep(a) { color: var(--clay-dk) }
 </style>
