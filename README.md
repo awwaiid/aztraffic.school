@@ -14,9 +14,12 @@ Everything that gets published lives in [`public/`](./public):
 | `index.es.html` | Spanish landing page (`/index.es`) |
 | `privacy-policy.html` | Privacy Policy (`/privacy-policy`) |
 | `terms-of-service.html` | Terms of Service (`/terms-of-service`) |
+| `preview.html` | Staging copy for reviewing proposed changes (`/preview.html`) |
 | `styles.css` | Shared styles for every page |
 | `locations.js` | Class locations data + the searchable grid / mobile menu |
 | `favicon.ico`, `*.jpg`, `*.png` | Static assets |
+
+> **Naming:** the official school name is **"$139 AZ Discount Traffic Survival School"**. Always include the `$139` prefix — never use the bare "AZ Discount Traffic Survival School" (that's a different, competing school).
 
 ## Editing
 
@@ -33,6 +36,15 @@ npx serve public
 # or
 python3 -m http.server -d public 8000
 ```
+
+## Preview workflow
+
+Proposed changes are staged in `public/preview.html` and pushed live alongside the
+real pages. Because it's a real published file, it can be reviewed on the production
+server at [`/preview.html`](https://aztraffic.school/preview.html) without changing the
+live homepage. `preview.html` carries a `noindex` tag and a banner so it's never
+mistaken for the live site or picked up by search engines. Once a change is approved,
+it's folded into `index.html` (and the other pages as needed).
 
 ## Production
 
