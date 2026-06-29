@@ -39,21 +39,21 @@ img{max-width:100%}
 
 /* ---- Sticky nav ---- */
 header.nav{position:sticky; top:0; z-index:50; background:rgba(251,246,238,.92); backdrop-filter:blur(10px); border-bottom:1px solid var(--line)}
-header.nav .wrap{display:flex; align-items:center; justify-content:space-between; padding-top:14px; padding-bottom:14px; gap:16px}
-.brand{display:flex; align-items:center; gap:12px; text-decoration:none; color:var(--ink)}
-.brand .mark{flex:none; width:42px; height:42px; border-radius:11px; background:linear-gradient(135deg,var(--gold),var(--clay)); display:grid; place-items:center; color:#fff; font-family:'Fraunces',Georgia,serif; font-weight:700; font-size:1.18rem; box-shadow:var(--shadow)}
-.brand b{font-family:'Fraunces',Georgia,serif; font-weight:700; font-size:1.06rem; display:block; line-height:1.05}
+header.nav .wrap{display:flex; flex-wrap:nowrap; align-items:center; justify-content:space-between; padding-top:14px; padding-bottom:14px; gap:16px}
+.brand{display:flex; align-items:center; gap:12px; text-decoration:none; color:var(--ink); flex:none}
+.brand .mark{flex:none; height:42px; width:auto; min-width:42px; padding:0 11px; border-radius:11px; background:linear-gradient(135deg,var(--gold),var(--clay)); display:grid; place-items:center; color:#fff; font-family:'Fraunces',Georgia,serif; font-weight:700; font-size:1.05rem; letter-spacing:-.01em; white-space:nowrap; box-shadow:var(--shadow)}
+.brand b{font-family:'Fraunces',Georgia,serif; font-weight:700; font-size:1.06rem; display:block; line-height:1.05; white-space:nowrap}
 .brand span small,.brand small{font-size:.74rem; color:var(--muted); letter-spacing:.02em; display:block}
 nav.menu{display:flex; gap:26px; align-items:center}
-nav.menu a{text-decoration:none; color:var(--ink); font-weight:500; font-size:.95rem}
+nav.menu a{text-decoration:none; color:var(--ink); font-weight:500; font-size:.95rem; white-space:nowrap}
 nav.menu a:hover{color:var(--clay)}
-.btn{display:inline-flex; align-items:center; gap:9px; font-weight:700; text-decoration:none; border-radius:999px; padding:13px 22px; font-size:.98rem; border:0; cursor:pointer; transition:transform .12s ease, box-shadow .12s ease}
+.btn{display:inline-flex; align-items:center; gap:9px; font-weight:700; text-decoration:none; border-radius:999px; padding:13px 22px; font-size:.98rem; border:0; cursor:pointer; white-space:nowrap; transition:transform .12s ease, box-shadow .12s ease}
 .btn:hover{transform:translateY(-1px)}
 .btn-call{background:var(--clay); color:#fff; box-shadow:0 6px 18px rgba(194,90,43,.32)}
 .btn-call:hover{background:var(--clay-dk)}
 .btn-ghost{background:transparent; color:var(--ink); border:1.5px solid var(--line)}
 .btn-ghost:hover{border-color:var(--clay); color:var(--clay)}
-.nav-cta{display:flex; gap:10px; align-items:center}
+.nav-cta{display:flex; gap:10px; align-items:center; flex:none}
 .hamb{display:none; background:none; border:0; font-size:1.5rem; cursor:pointer; color:var(--ink)}
 
 /* ---- Hero ---- */
@@ -192,12 +192,16 @@ footer .legal{border-top:1px solid rgba(255,255,255,.08); padding-top:20px; disp
 .page .content strong{color:var(--ink)}
 .page .content .updated{margin-top:2rem; font-size:.9rem; color:var(--muted)}
 
-@media (max-width:900px){
-  .hero .wrap{grid-template-columns:1fr; gap:34px; padding-top:44px; padding-bottom:44px}
-  .why-grid,.rev-grid,.steps,.loc-grid{grid-template-columns:1fr 1fr}
+/* Collapse the horizontal menu to a hamburger early enough that the long
+   brand name and the phone button never crowd each other. */
+@media (max-width:1140px){
   nav.menu{display:none}
   .hamb{display:block}
   nav.menu.open{display:flex; position:absolute; top:100%; left:0; right:0; flex-direction:column; background:var(--sand); border-bottom:1px solid var(--line); padding:16px 24px; gap:14px}
+}
+@media (max-width:900px){
+  .hero .wrap{grid-template-columns:1fr; gap:34px; padding-top:44px; padding-bottom:44px}
+  .why-grid,.rev-grid,.steps,.loc-grid{grid-template-columns:1fr 1fr}
 }
 @media (max-width:620px){
   .why-grid,.rev-grid,.steps,.loc-grid{grid-template-columns:1fr}
