@@ -31,7 +31,7 @@ Context to pick up quickly when making future changes to this site.
    Spanish content.
 
 ## Key content facts
-- **Price:** $139 in person. Virtual adds ~$10 shipping/handling (≈$149 total).
+- **Price:** $139 in person. Virtual adds $12 shipping/handling (≈$151 total).
 - **Phone — English:** (602) 892-3570 (`tel:6028923570`).
 - **Phone — Spanish:** (602) 899-1922 (`tel:6028991922`). The two language pages use
   different numbers on purpose.
