@@ -194,9 +194,17 @@
     <div class="virtual-note">
       <div>
         <h3>💻 Prefer to attend from home?</h3>
-        <p>We offer the full class live online via Zoom, in English and Spanish. A one-time NSC waiver is required first — call us and we'll explain the simple steps.</p>
+        <p>We offer the full class live online via Zoom, in English and Spanish — every Saturday and Sunday, plus alternating Wednesdays and Fridays. A one-time NSC waiver is required first — call us and we'll explain the simple steps.</p>
       </div>
       <a class="btn btn-call" href="tel:6028923570" style="background:#fff;color:var(--clay-dk)">📞 Ask about virtual</a>
+    </div>
+
+    <div class="virtual-schedule">
+      <div class="section-head" style="margin-bottom:20px">
+        <p class="eyebrow">Upcoming virtual classes</p>
+        <h3>Every Saturday &amp; Sunday, plus alternating Wednesdays and Fridays.</h3>
+      </div>
+      <div id="scheduleList"></div>
     </div>
   </div>
 </section>
@@ -401,7 +409,13 @@
   initSite({
     directions: 'Get directions →',
     all: 'Showing all {n} locations',
-    showing: 'Showing {n} of {total} locations'
+    showing: 'Showing {n} of {total} locations',
+    schedule: {
+      dayNames: ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
+      monthNames: ['January','February','March','April','May','June','July','August','September','October','November','December'],
+      next: 'Next class',
+      empty: 'New dates are posted monthly — call (602) 892-3570 for the next available class.'
+    }
   });
 </script>
 </body>

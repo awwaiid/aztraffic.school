@@ -194,9 +194,17 @@
     <div class="virtual-note">
       <div>
         <h3>💻 ¿Prefiere asistir desde casa?</h3>
-        <p>Ofrecemos la clase completa en vivo por Zoom, en inglés y español. Primero se requiere una exención única del NSC — llámenos y le explicaremos los sencillos pasos.</p>
+        <p>Ofrecemos la clase completa en vivo por Zoom, en inglés y español — todos los sábados y domingos, además de miércoles y viernes alternos. Primero se requiere una exención única del NSC — llámenos y le explicaremos los sencillos pasos.</p>
       </div>
       <a class="btn btn-call" href="tel:6028991922" style="background:#fff;color:var(--clay-dk)">📞 Pregunte por la virtual</a>
+    </div>
+
+    <div class="virtual-schedule">
+      <div class="section-head" style="margin-bottom:20px">
+        <p class="eyebrow">Próximas clases virtuales</p>
+        <h3>Todos los sábados y domingos, además de miércoles y viernes alternos.</h3>
+      </div>
+      <div id="scheduleList"></div>
     </div>
   </div>
 </section>
@@ -401,7 +409,13 @@
   initSite({
     directions: 'Cómo llegar →',
     all: 'Mostrando las {n} ubicaciones',
-    showing: 'Mostrando {n} de {total} ubicaciones'
+    showing: 'Mostrando {n} de {total} ubicaciones',
+    schedule: {
+      dayNames: ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'],
+      monthNames: ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
+      next: 'Próxima clase',
+      empty: 'Publicamos fechas nuevas cada mes — llame al (602) 899-1922 para la próxima clase disponible.'
+    }
   });
 </script>
 </body>

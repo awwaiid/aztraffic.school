@@ -22,9 +22,70 @@ var LOCATIONS = [
   {city:"Yuma", venue:"Everhome Suites Yuma", addr:"2011 E 18th St, Yuma, AZ 85365", url:"https://www.google.com/maps/search/?api=1&query=2011%20E%2018th%20St%2C%20Yuma%2C%20AZ%2085365"}
 ];
 
+// Upcoming virtual class dates.
+// To add a class, add a line: "YYYY-MM-DD", (year, then 2-digit month, then 2-digit day).
+// To remove one, delete its line. Nothing else here needs to change —
+// past dates drop off the page on their own, and the day of the week is
+// calculated automatically so it can never be wrong.
+var VIRTUAL_CLASS_DATES = [
+  "2026-09-04",
+  "2026-09-05",
+  "2026-09-09",
+  "2026-09-12",
+  "2026-09-13",
+  "2026-09-18",
+  "2026-09-19",
+  "2026-09-23",
+  "2026-09-26",
+  "2026-09-27"
+];
+
+// Renders the upcoming virtual class schedule, grouped by month, soonest first.
+// labels: { dayNames[7] (Sun-first), monthNames[12], next, empty }
+function renderSchedule(labels){
+  var el = document.getElementById('scheduleList');
+  if(!el) return;
+
+  var today = new Date();
+  today.setHours(0,0,0,0);
+
+  var dates = VIRTUAL_CLASS_DATES.map(function(s){
+    var p = s.split('-');
+    return new Date(parseInt(p[0],10), parseInt(p[1],10)-1, parseInt(p[2],10));
+  }).filter(function(d){
+    return d >= today;
+  }).sort(function(a,b){
+    return a - b;
+  });
+
+  if(!dates.length){
+    el.innerHTML = '<p class="sched-empty">'+labels.empty+'</p>';
+    return;
+  }
+
+  var html = '';
+  var monthKey = '';
+  dates.forEach(function(d, i){
+    var key = d.getFullYear()+'-'+d.getMonth();
+    if(key !== monthKey){
+      if(monthKey !== '') html += '</div>';
+      monthKey = key;
+      html += '<h4 class="sched-month">'+labels.monthNames[d.getMonth()]+' '+d.getFullYear()+'</h4><div class="sched-grid">';
+    }
+    html += '<div class="sched-card">'+
+      (i === 0 ? '<span class="sched-flag">'+labels.next+'</span>' : '')+
+      '<span class="sched-day">'+labels.dayNames[d.getDay()]+'</span>'+
+      '<span class="sched-date">'+labels.monthNames[d.getMonth()]+' '+d.getDate()+'</span>'+
+    '</div>';
+  });
+  html += '</div>';
+  el.innerHTML = html;
+}
+
 // Initialize the searchable locations grid + mobile menu.
-// labels: { all, showing, of, locations, directions }
+// labels: { all, showing, of, locations, directions, schedule }
 function initSite(labels){
+  if(labels.schedule) renderSchedule(labels.schedule);
   var grid = document.getElementById('locGrid');
   var countEl = document.getElementById('locCount');
   function render(list){
