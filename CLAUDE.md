@@ -17,7 +17,8 @@ Context to pick up quickly when making future changes to this site.
 | `terms-of-service.html` | Terms of Service (`/terms-of-service`) |
 | `preview.html` | Staging page for proposed changes (`/preview.html`) |
 | `styles.css` | Shared styles for every page |
-| `locations.js` | `LOCATIONS` array + `initSite(labels)` (searchable grid + mobile menu) |
+| `locations.js` | `LOCATIONS` array, `VIRTUAL_CLASS_DATES` array + `initSite(labels)` (searchable grid, virtual schedule, mobile menu) |
+| `call.js` | Makes `tel:` buttons useful on non-phones (copy-the-number notice). Loaded by **every** page |
 | `favicon.ico` | Favicon |
 | `traffic-background.jpg`, `traffic_green_light.png` | Legacy assets, currently unused by the design |
 
@@ -44,6 +45,14 @@ Context to pick up quickly when making future changes to this site.
 
 ## Editing tips
 - **Locations:** edit the `LOCATIONS` array in `locations.js` (drives both EN + ES grids).
+- **Virtual class dates (owner updates this monthly):** edit the `VIRTUAL_CLASS_DATES`
+  array at the top of `locations.js` — one `"YYYY-MM-DD",` per line, nothing else. Day
+  names are computed, past dates drop off automatically, months group themselves, and an
+  empty list falls back to a "call us" message. Keep it that simple; the owner edits it.
+- **Call buttons:** `call.js` intercepts `tel:` clicks **only** on non-phones (`(hover:
+  none) and (pointer: coarse)` fails) and shows the copy-the-number notice instead. It
+  localizes off `<html lang>` and pulls the email from the page's first `mailto:` link,
+  so any new page just needs `<script src="/call.js"></script>` and nothing else.
 - **Look & feel:** edit `styles.css` (shared by all pages).
 - **Nav layout:** the menu collapses to a hamburger at `max-width: 1140px`. The brand
   name (`.brand-name`) is `flex-basis:100%` so it flows onto its own line below the

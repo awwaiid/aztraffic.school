@@ -145,6 +145,16 @@ section{padding:74px 0}
 .sched-flag{position:absolute; top:-11px; left:50%; transform:translateX(-50%); background:var(--gold); color:var(--ink); font-size:.7rem; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:3px 10px; border-radius:999px; white-space:nowrap; box-shadow:var(--shadow)}
 .sched-empty{background:var(--white); border:1px solid var(--line); border-radius:var(--radius); padding:22px 24px; color:var(--muted)}
 
+/* call-number notice (shown on devices that can't dial a tel: link) */
+.call-toast{position:fixed; left:50%; bottom:26px; z-index:120; transform:translate(-50%,14px); opacity:0; visibility:hidden; transition:opacity .18s ease, transform .18s ease, visibility .18s; background:var(--white); border:1px solid var(--line); border-radius:var(--radius); box-shadow:0 6px 16px rgba(60,40,20,.12), 0 18px 48px rgba(120,70,30,.20); padding:20px 44px 20px 26px; max-width:min(92vw,420px); display:flex; flex-direction:column; gap:2px; text-align:left}
+.call-toast.open{opacity:1; visibility:visible; transform:translate(-50%,0)}
+.call-toast .ct-eyebrow{font-size:.72rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--clay)}
+.call-toast .ct-num{font-family:'Fraunces',Georgia,serif; font-weight:700; font-size:1.7rem; color:var(--ink); line-height:1.2; user-select:all}
+.call-toast .ct-sub{font-size:.9rem; color:var(--muted); margin-top:4px}
+.call-toast .ct-sub a{color:var(--clay); font-weight:600}
+.call-toast .ct-x{position:absolute; top:10px; right:12px; background:none; border:0; padding:4px 6px; font-size:1.3rem; line-height:1; color:var(--muted); cursor:pointer; border-radius:8px}
+.call-toast .ct-x:hover{background:var(--sand-2); color:var(--ink)}
+
 /* details accordion */
 .details{background:var(--sand-2)}
 .acc{background:var(--white); border:1px solid var(--line); border-radius:14px; margin-bottom:12px; overflow:hidden}
