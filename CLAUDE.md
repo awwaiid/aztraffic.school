@@ -18,7 +18,7 @@ Context to pick up quickly when making future changes to this site.
 | `preview.html` | Staging page for proposed changes (`/preview.html`) |
 | `styles.css` | Shared styles for every page |
 | `locations.js` | `LOCATIONS` array, `VIRTUAL_CLASS_DATES` array + `initSite(labels)` (searchable grid, virtual schedule, mobile menu) |
-| `call.js` | Makes `tel:` buttons useful on non-phones (copy-the-number notice). Loaded by **every** page |
+| `call.js` | Makes `tel:` + `mailto:` links useful on non-phones (copy-and-open notice). Loaded by **every** page |
 | `favicon.ico` | Favicon |
 | `traffic-background.jpg`, `traffic_green_light.png` | Legacy assets, currently unused by the design |
 
@@ -49,10 +49,15 @@ Context to pick up quickly when making future changes to this site.
   array at the top of `locations.js` — one `"YYYY-MM-DD",` per line, nothing else. Day
   names are computed, past dates drop off automatically, months group themselves, and an
   empty list falls back to a "call us" message. Keep it that simple; the owner edits it.
-- **Call buttons:** `call.js` intercepts `tel:` clicks **only** on non-phones (`(hover:
-  none) and (pointer: coarse)` fails) and shows the copy-the-number notice instead. It
-  localizes off `<html lang>` and pulls the email from the page's first `mailto:` link,
-  so any new page just needs `<script src="/call.js"></script>` and nothing else.
+- **Call / email links:** `call.js` intercepts `tel:` and `mailto:` clicks **only** on
+  non-phones (`(hover: none) and (pointer: coarse)` fails) and shows a copy-the-value
+  notice instead — both are dead ends on a desktop without a dialer or a mail program
+  set up. The email notice also offers Gmail and Outlook web-compose links, since most
+  people read mail in a browser. It localizes off `<html lang>`, so any new page just
+  needs `<script src="/call.js"></script>` and nothing else.
+  - A link marked `data-raw` is left alone (that's how the notice's own "your mail app"
+    option still reaches a real mail program). Use it on any link that must not be
+    intercepted.
 - **Look & feel:** edit `styles.css` (shared by all pages).
 - **Nav layout:** the menu collapses to a hamburger at `max-width: 1140px`. The brand
   name (`.brand-name`) is `flex-basis:100%` so it flows onto its own line below the
