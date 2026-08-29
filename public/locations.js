@@ -2,7 +2,7 @@
 var LOCATIONS = [
   {city:"Buckeye", venue:"Holiday Inn Express & Suites Buckeye", addr:"445 S Watson Rd, Buckeye, AZ 85326", url:"https://www.google.com/maps/search/?api=1&query=445%20S%20Watson%20Rd%20Buckeye%2C%20AZ%2085326"},
   {city:"Casa Grande", venue:"Best Western Plus Casa Grande", addr:"1918 E Florence Blvd, Casa Grande, AZ 85122", url:"https://www.google.com/maps/search/?api=1&query=1918%20E%20Florence%20Blvd%2C%20Casa%20Grande%2C%20AZ%2085122"},
-  {city:"Chandler", venue:"Hampton Inn & Suites Chandler", addr:"1231 S Spectrum Blvd, Chandler, AZ 85286", url:"https://www.google.com/maps/search/?api=1&query=1231%20S%20Spectrum%20Blvd%2C%20Chandler%2C%20AZ%2085286"},
+  {city:"Chandler", venue:"Homewood Suites Chandler", addr:"1221 S Spectrum Blvd, Chandler, AZ 85286", url:"https://www.google.com/maps/search/?api=1&query=1221%20S%20Spectrum%20Blvd%2C%20Chandler%2C%20AZ%2085286"},
   {city:"Chandler", venue:"Hyatt Place Chandler Fashion Center", addr:"3535 W Chandler Blvd, Chandler, AZ 85226", url:"https://www.google.com/maps/search/?api=1&query=3535%20W%20Chandler%20Blvd%2C%20Chandler%2C%20AZ%2085226"},
   {city:"Gilbert (Market St)", venue:"Hampton Inn & Suites", addr:"3265 S Market St, Gilbert, AZ 85297", url:"https://www.google.com/maps/search/?api=1&query=3265%20S%20Market%20St%2C%20Gilbert%2C%20AZ%2085297"},
   {city:"Glendale", venue:"Everhome Suites Glendale", addr:"9775 W Northern Ave, Glendale, AZ 85305", url:"https://www.google.com/maps/search/?api=1&query=9775%20W.%20Northern%20Ave%2C%20Glendale%2C%20AZ%2085305"},
