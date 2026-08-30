@@ -134,6 +134,41 @@ section{padding:74px 0}
 .virtual-note h3{color:#fff; font-size:1.25rem; margin:0 0 4px}
 .virtual-note p{margin:0; opacity:.92; font-size:.95rem}
 
+/* virtual / online class section */
+.virtual{background:var(--sand-2)}
+.vgrid{display:grid; grid-template-columns:1fr 1fr; gap:20px; align-items:start}
+.vcard{background:var(--white); border:1px solid var(--line); border-radius:var(--radius); padding:30px; box-shadow:var(--shadow)}
+.vcard h3{font-size:1.3rem; margin:0 0 6px}
+.vcard p{color:#43352a; margin:0 0 12px}
+.vcard .vsub{color:var(--muted); font-size:.95rem; margin:0 0 18px}
+.vcard-soft{background:linear-gradient(160deg,rgba(217,164,65,.13),rgba(194,90,43,.07)); border-color:rgba(217,164,65,.45); box-shadow:none}
+.vlist{counter-reset:v; list-style:none; margin:0 0 18px; padding:0; display:flex; flex-direction:column; gap:10px}
+.vlist li{counter-increment:v; position:relative; padding:3px 0 0 42px; font-size:1.05rem; color:#3a2e24; min-height:30px}
+.vlist li::before{content:counter(v); position:absolute; left:0; top:0; width:30px; height:30px; border-radius:50%; background:var(--clay); color:#fff; font-family:'Fraunces',Georgia,serif; font-weight:700; font-size:.95rem; display:grid; place-items:center}
+.vplus{font-size:.95rem; border-top:1px dashed var(--line); padding-top:14px; margin:0 0 12px!important}
+.vship{display:flex; gap:10px; align-items:flex-start; margin-bottom:0!important}
+.vship span:first-child{flex:none; font-size:1.1rem; line-height:1.4}
+.vways-h{margin-top:22px!important}
+.vways{display:flex; flex-wrap:wrap; gap:10px}
+.vways .btn{font-size:.98rem; padding:12px 18px}
+.vways .btn-ghost{background:var(--white)}
+
+/* "you can register yourself" callout under the locations grid */
+.self-reg{margin-top:26px; background:linear-gradient(135deg,var(--clay),var(--ember)); color:#fff; border-radius:var(--radius); padding:26px 30px; display:flex; flex-wrap:wrap; gap:18px; align-items:center; justify-content:space-between; box-shadow:var(--shadow)}
+.self-reg h3{color:#fff; font-size:1.3rem; margin:0 0 6px}
+.self-reg p{margin:0; font-size:.98rem; opacity:.95; max-width:66ch}
+.self-reg .btn-call{flex:none; background:#fff; color:var(--clay-dk); box-shadow:0 8px 24px rgba(0,0,0,.16)}
+.self-reg .btn-call:hover{background:var(--sand)}
+
+/* the three-step strip above the registration tool */
+.reg-steps{display:flex; flex-wrap:wrap; gap:10px; margin-bottom:20px}
+.reg-steps span{flex:1 1 200px; background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.16); border-radius:12px; padding:13px 18px; font-size:.96rem; color:#f0e6d8}
+.reg-steps b{color:var(--gold); font-family:'Fraunces',Georgia,serif}
+
+.cta-actions{display:flex; flex-wrap:wrap; gap:12px; justify-content:center}
+.cta-band .btn-ghost{background:transparent; color:#fff; border:1.5px solid rgba(255,255,255,.6)}
+.cta-band .btn-ghost:hover{background:rgba(255,255,255,.14)}
+
 /* virtual class schedule */
 .virtual-schedule{margin-top:40px}
 .sched-month{font-family:'Fraunces',Georgia,serif; font-weight:600; font-size:1.05rem; color:var(--ink); margin:0 0 14px}
@@ -236,6 +271,7 @@ footer .legal{border-top:1px solid rgba(255,255,255,.08); padding-top:20px; disp
   .hero .wrap{grid-template-columns:1fr; gap:34px; padding-top:44px; padding-bottom:44px}
   .why-grid,.rev-grid,.steps,.loc-grid{grid-template-columns:1fr 1fr}
   .sched-grid{grid-template-columns:repeat(3,1fr)}
+  .vgrid{grid-template-columns:1fr}
 }
 @media (max-width:620px){
   .why-grid,.rev-grid,.steps,.loc-grid{grid-template-columns:1fr}

@@ -47,7 +47,7 @@
     var d = href.replace(/[^0-9]/g, '').replace(/^1/, '');
     return d.length === 10
       ? '(' + d.slice(0,3) + ') ' + d.slice(3,6) + '-' + d.slice(6)
-      : href.replace(/^tel:/, '');
+      : href.replace(/^(tel|sms):/, '');
   }
 
   function copy(text){
@@ -140,7 +140,7 @@
 
   document.addEventListener('click', function(e){
     if(!e.target.closest) return;
-    var link = e.target.closest('a[href^="tel:"], a[href^="mailto:"]');
+    var link = e.target.closest('a[href^="tel:"], a[href^="sms:"], a[href^="mailto:"]');
     if(!link || link.hasAttribute('data-raw')) return;
     e.preventDefault();
     var href = link.getAttribute('href');
@@ -153,7 +153,7 @@
 
   // Let people know the click does something before they click it.
   document.addEventListener('DOMContentLoaded', function(){
-    var links = document.querySelectorAll('a[href^="tel:"], a[href^="mailto:"]');
+    var links = document.querySelectorAll('a[href^="tel:"], a[href^="sms:"], a[href^="mailto:"]');
     for(var i = 0; i < links.length; i++){
       if(links[i].hasAttribute('data-raw') || links[i].getAttribute('title')) continue;
       links[i].setAttribute('title',

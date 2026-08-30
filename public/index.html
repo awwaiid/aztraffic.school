@@ -41,6 +41,7 @@
     <nav class="menu" id="menu">
       <a href="#why">Why us</a>
       <a href="#expect">What to expect</a>
+      <a href="#virtual">Online class</a>
       <a href="#locations">Locations</a>
       <a href="#details">Class details</a>
       <a href="#register">Register</a>
@@ -63,10 +64,10 @@
     <div>
       <p class="eyebrow">Arizona Traffic Survival School · Statewide</p>
       <h1>Get it done in <span class="em">one day</span> — with people who actually want to help.</h1>
-      <p class="lead">A friendly, MVD-licensed class to get you back on track. One day, one flat price, twenty-plus locations across Arizona — plus virtual. English &amp; Spanish.</p>
+      <p class="lead">A friendly, MVD-licensed class to get you back on track. One day, one flat price — twenty-plus locations across Arizona, or <strong>live online from home every weekend</strong>. English &amp; Spanish.</p>
       <div class="actions">
         <a class="btn btn-call" href="tel:6028923570">📞 Call to register — (602) 892-3570</a>
-        <a class="btn btn-ghost" href="#locations">See locations</a>
+        <a class="btn btn-ghost" href="#register">📝 Or register yourself online</a>
       </div>
       <p class="reassure"><span>💬</span><span>Nervous or not sure if you need to be here? That's okay. Call us and we'll walk you through everything live on the phone — no judgment, just help.</span></p>
     </div>
@@ -152,8 +153,8 @@
     <div class="steps">
       <div class="step">
         <div class="n">1</div>
-        <h3>Call &amp; schedule</h3>
-        <p>Ring us at (602) 892-3570. We'll find a date and location that works and get you on the list.</p>
+        <h3>Pick your class</h3>
+        <p>Register yourself at the bottom of this page — every date and location is listed there. Or ring us at (602) 892-3570 and we'll do it for you.</p>
       </div>
       <div class="step">
         <div class="n">2</div>
@@ -174,13 +175,67 @@
   </div>
 </section>
 
+<!-- Virtual -->
+<section class="virtual" id="virtual">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Live online · every weekend</p>
+      <h2>Take the class from home.</h2>
+      <p>The same one-day class, live on Zoom with a real instructor — not a video you click through alone. English and Spanish, <strong>every Saturday and Sunday</strong>, plus alternating Wednesdays and Fridays. $139, plus $12 to ship your workbook.</p>
+    </div>
+
+    <div class="vgrid">
+      <div class="vcard">
+        <h3>Four things get you registered</h3>
+        <p class="vsub">Send them however you like — email, text, or call. That's all we need.</p>
+        <ol class="vlist">
+          <li>Your <b>date of birth</b></li>
+          <li>Your <b>Arizona driver's license number</b></li>
+          <li>Your <b>customer number</b></li>
+          <li>Your <b>withdrawal number</b></li>
+        </ol>
+        <p class="vplus">We'll also ask for your <b>email address</b> and a <b>phone number we can text</b>, so we can send your Zoom link and reach you on class day.</p>
+        <p class="vplus vship"><span>📦</span><span><b>Want the workbook mailed to you?</b> Then we'll need your <b>physical street address</b> as well — FedEx can't deliver to a PO box. You can also pick the workbook up in person.</span></p>
+      </div>
+
+      <div class="vcard vcard-soft">
+        <h3>Don't have those numbers?</h3>
+        <p>That's completely normal, and it isn't a problem. If you don't have an Arizona driver's license, or you don't know your customer number or withdrawal number, <b>we're happy to get them for you</b> from the Arizona Chapter, National Safety Council.</p>
+        <p>Or, if you'd rather do it yourself, call the Arizona Chapter, National Safety Council directly at <a href="tel:6022223381">(602) 222-3381</a>.</p>
+        <h3 class="vways-h">Reach us whichever way is easiest</h3>
+        <div class="vways">
+          <a class="btn btn-call" href="tel:6028923570">📞 Call (602) 892-3570</a>
+          <a class="btn btn-ghost" href="sms:6028923570">💬 Text us</a>
+          <a class="btn btn-ghost" href="mailto:kandy.trafficsafety@gmail.com">✉️ Email us</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="virtual-schedule">
+      <div class="section-head" style="margin-bottom:20px">
+        <p class="eyebrow">Upcoming online classes</p>
+        <h3>Pick your date — we'll take it from there.</h3>
+      </div>
+      <div id="scheduleList"></div>
+    </div>
+
+    <div class="virtual-note">
+      <div>
+        <h3>✅ Already have your waiver?</h3>
+        <p>Then you can sign yourself up for an online class right now, without calling anyone — use the registration tool at the bottom of this page.</p>
+      </div>
+      <a class="btn btn-call" href="#register" style="background:#fff;color:var(--clay-dk)">📝 Register yourself</a>
+    </div>
+  </div>
+</section>
+
 <!-- Locations -->
 <section id="locations">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">20+ locations statewide</p>
       <h2>Find the class nearest you.</h2>
-      <p>We hold classes in comfortable hotel conference rooms all across Arizona. Type a city or zip to filter, then tap a location for directions.</p>
+      <p>We hold classes in comfortable hotel conference rooms all across Arizona. Type a city or zip to filter, then tap a location for directions. <strong>To see which dates are available at each one, use the registration tool at the bottom of this page</strong> — every location and every open date is listed there.</p>
     </div>
     <div class="loc-tools">
       <div class="search">
@@ -191,20 +246,12 @@
     </div>
     <div class="loc-grid" id="locGrid"></div>
 
-    <div class="virtual-note">
+    <div class="self-reg">
       <div>
-        <h3>💻 Prefer to attend from home?</h3>
-        <p>We offer the full class live online via Zoom, in English and Spanish — every Saturday and Sunday, plus alternating Wednesdays and Fridays. A one-time NSC waiver is required first — call us and we'll explain the simple steps.</p>
+        <h3>📝 You can sign yourself up — it only takes a few minutes.</h3>
+        <p>No phone call needed. The registration tool at the bottom of this page lists <b>every location and every available date</b>, so you can find the class nearest you and book your own seat right there.</p>
       </div>
-      <a class="btn btn-call" href="tel:6028923570" style="background:#fff;color:var(--clay-dk)">📞 Ask about virtual</a>
-    </div>
-
-    <div class="virtual-schedule">
-      <div class="section-head" style="margin-bottom:20px">
-        <p class="eyebrow">Upcoming virtual classes</p>
-        <h3>Every Saturday &amp; Sunday, plus alternating Wednesdays and Fridays.</h3>
-      </div>
-      <div id="scheduleList"></div>
+      <a class="btn btn-call" href="#register">See all dates &amp; register →</a>
     </div>
   </div>
 </section>
@@ -250,11 +297,15 @@
     <details class="acc">
       <summary>Virtual class requirements <span class="plus">+</span></summary>
       <div class="body">
-        <p><strong>Prerequisites:</strong></p>
+        <p><strong>To register, send us four things</strong> — by phone, text, or email:</p>
         <ul>
-          <li>A one-time waiver from the Arizona Chapter, National Safety Council (602-222-3381)</li>
-          <li>Contact us after receiving waiver approval to register</li>
+          <li>Your date of birth</li>
+          <li>Your Arizona driver's license number</li>
+          <li>Your customer number</li>
+          <li>Your withdrawal number</li>
         </ul>
+        <p>We'll also need your <strong>email address</strong> and a <strong>phone number we can text</strong>. If you don't have an Arizona license, or don't know your customer or withdrawal number, we're happy to get them for you from the Arizona Chapter, National Safety Council — or you can call them yourself at 602-222-3381.</p>
+        <p>A one-time NSC waiver is required for online classes. Once you have it, you can also register yourself using the tool at the bottom of the home page.</p>
         <p><strong>Cost structure:</strong></p>
         <ul>
           <li>Base cost: $139</li>
@@ -339,8 +390,13 @@
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Search &amp; register</p>
-      <h2>Find a class and sign up.</h2>
-      <p>Use the official Arizona Chapter, National Safety Council tool below to search classes and register. The fastest way, though, is simply to call us.</p>
+      <h2>Register yourself, right here.</h2>
+      <p><b>Every location and every available date is listed in the tool below</b> — in person across Arizona, and online if you already have your waiver. Search it, pick the class nearest you, and book your own seat. It takes a few minutes and you don't have to talk to anybody.</p>
+    </div>
+    <div class="reg-steps">
+      <span><b>1.</b> Search by city or date</span>
+      <span><b>2.</b> Pick the class you want</span>
+      <span><b>3.</b> Fill in your details — done</span>
     </div>
     <div class="reg-tip">
       <b>Good news:</b> contrary to what the form says, you do <b>not</b> need a TSS Order letter, Suspension letter, Proof of Assignment, or a copy of your Motor Vehicle Record to enroll. You may ignore that part of the form.
@@ -350,7 +406,7 @@
         src="https://azstatetss.org/remote/student-reg-search.php?school_id=5175&amp;key=ffd2257b"
         loading="lazy"></iframe>
     </div>
-    <p class="reg-or">Rather talk to a real person? <a href="tel:6028923570">📞 Call (602) 892-3570</a> and we'll get you booked.</p>
+    <p class="reg-or">Stuck, or would rather talk to a real person? <a href="tel:6028923570">📞 Call (602) 892-3570</a> and we'll get you booked — no problem at all.</p>
   </div>
 </section>
 
@@ -358,8 +414,11 @@
 <section class="cta-band">
   <div class="wrap">
     <h2>Ready to get it behind you?</h2>
-    <p>One call. One day. One flat price. We'll take it from here.</p>
-    <a class="btn btn-call" href="tel:6028923570">📞 Call (602) 892-3570</a>
+    <p>One day. One flat price. Sign yourself up in a few minutes, or call and we'll do it with you.</p>
+    <div class="cta-actions">
+      <a class="btn btn-call" href="#register">📝 Register yourself now</a>
+      <a class="btn btn-ghost" href="tel:6028923570">📞 Call (602) 892-3570</a>
+    </div>
   </div>
 </section>
 

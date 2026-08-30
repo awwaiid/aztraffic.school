@@ -31,12 +31,29 @@ Context to pick up quickly when making future changes to this site.
    Arizona), not generic/Castilian Spanish. Applies to `index.es.html` and any future
    Spanish content.
 
+## Page structure (both landing pages)
+Hero → trust strip → Why us → What to expect → **Online class (`#virtual`)** → Locations →
+Class details → Register (`#register`). The online-class section sits **above** Locations
+on purpose: below the 20 location cards it was ~14 phone screens down and never seen.
+
 ## Key content facts
 - **Price:** $139 in person. Virtual adds $12 shipping/handling (≈$151 total).
 - **Phone — English:** (602) 892-3570 (`tel:6028923570`).
 - **Phone — Spanish:** (602) 899-1922 (`tel:6028991922`). The two language pages use
   different numbers on purpose.
 - **Email:** kandy.trafficsafety@gmail.com
+- **Online class registration** needs **four** items from the student — date of birth,
+  AZ driver's license number, customer number, withdrawal number — plus an email address
+  and a **textable** phone number. A **physical street address** is required if the
+  workbook is being mailed (FedEx, no PO boxes). If the student has no AZ license or
+  doesn't know their customer/withdrawal number, **the school will get it** from the AZ
+  Chapter NSC, or the student can call NSC at 602-222-3381 themselves. Students can send
+  all of this by phone, text, or email.
+- **Self-registration:** students can book their own seat with the NSC tool in
+  `#register` — it lists **every location and every available date**, for in-person and
+  (once they hold the waiver) online classes. The owner confirmed this is the intended
+  way to find in-person dates, so the page points at it repeatedly rather than listing
+  per-location dates. Keep those pointers in place.
 - **School #5175.** NSC waiver line: 602-222-3381. Mailing: PO Box 2, Waddell, AZ 85355.
 - **Google Analytics** gtag id `G-14DSKD6GXC` — snippet is in the `<head>` of every page.
 - The **reviews/testimonials** section in `index.html` is intentionally commented out
