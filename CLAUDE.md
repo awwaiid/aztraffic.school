@@ -111,8 +111,11 @@ on purpose: below the 20 location cards it was ~14 phone screens down and never 
   `.html`. Keep cross-page links extensionless to match.
 
 ## Workflow
-- **Develop on branch** `claude/website-new-version-rhl0jt`, push, open a PR, merge to
-  `main`. Merging to `main` triggers deploy.
+- Commit on the session's own branch, then push that branch **and** fast-forward `main`
+  (`git push origin <branch>:main`). Pushing `main` triggers the deploy. The owner does
+  **not** want work parked on a branch or waiting in a PR — only open a PR if asked.
+- Verify before pushing: serve `public/` locally and screenshot the changed section at
+  desktop **and** phone widths (see below). The owner checks the live site themselves.
 - **Preview workflow:** stage a proposed change in `public/preview.html` (use an inline
   `<style>` override block so the shared `styles.css` and live pages stay untouched),
   push it live, review at `/preview.html`, then once approved fold the change into the
@@ -125,6 +128,31 @@ on purpose: below the 20 location cards it was ~14 phone screens down and never 
 - ⚠️ The GitHub App used in sessions **cannot modify files under `.github/workflows/`**
   (needs `workflows` permission). If the workflow must change, the owner has to edit it
   directly on GitHub.
+
+## Open items (as of 2026-08-30)
+Picked up in a future session — the owner is aware of all three.
+1. **Testimonials — waiting on volume.** The owner collects reviews with a Google Form
+   sent ~30 min after class; had **5** responses and wants **10+** before publishing.
+   When ready: uncomment the reviews section in `index.html`, add the ES equivalent, and
+   restore the "Reviews" nav link.
+2. **Share previews + local SEO — parked for the owner's son.** Not yet done: Open Graph
+   / Twitter tags (a texted link currently shows no preview card), `hreflang` between the
+   EN and ES pages, a `canonical`, and `DrivingSchool`/`Course` JSON-LD. **Blocked on one
+   question:** which domain is primary, `139aztss.com` or `aztraffic.school`? There is no
+   `CNAME` file in the repo, so the custom domain lives in the GitHub Pages settings —
+   check there. A branded share image also needs making (do **not** use
+   `traffic-background.jpg`: it's a dark, ominous night-time red light, the opposite of
+   the site's warm tone).
+3. **Registering without a phone call.** Every CTA is call-or-NSC-tool. A short
+   "request a seat" form (the owner already uses Google Forms) would catch people who
+   won't phone. Owner's position so far: the NSC tool at `#register` is the intended
+   self-serve path.
+
+⚠️ **This sandbox cannot load the live site.** The egress proxy answers 403 to
+`139aztss.com`, `aztraffic.school`, and `awwaiid.github.io` (organization allowlist —
+Google Fonts and the `azstatetss.org` iframe are blocked too, so local screenshots show
+Georgia instead of Fraunces and an empty registration frame). Don't try to route around
+it; verify locally and let the owner confirm on the live site.
 
 ## Local preview / screenshots (for Claude's own verification)
 - Serve: `python3 -m http.server` from the repo (serves `public/` as root in this env),
