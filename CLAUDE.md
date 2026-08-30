@@ -61,11 +61,17 @@ on purpose: below the 20 location cards it was ~14 phone screens down and never 
   3. email address
   4. a **textable** phone number
 
-  A **physical street address** is required if the workbook is being sent (FedEx, no PO
-  boxes); students can also pick it up. If the student has no AZ license or doesn't know
-  their customer/withdrawal number, **they call the AZ Chapter NSC at 602-222-3381** — see
-  the waiver note above: the school assists on a three-way call but cannot do it for them.
-  Students can send all of this by phone, text, or email.
+  With those four items **the school does the registration**. A **complete physical street
+  address** is required if the workbook is being sent — including apartment, unit,
+  building or space number; FedEx can't deliver to a PO box, and a missing unit number is
+  the usual reason a workbook is returned. Students can also pick the workbook up. If the
+  student has no AZ license or doesn't know their customer/withdrawal number, **they call
+  the AZ Chapter NSC at 602-222-3381** — see the waiver note above: the school assists on
+  a three-way call but cannot do it for them. Students can send all of this by phone,
+  text, or email.
+
+  **Who does what:** NSC issues the waiver (only they can) → the school registers the
+  student and sends the workbook. Keep that split clear in any copy.
 - **Self-registration:** students can book their own seat with the NSC tool in
   `#register` — it lists **every location and every available date**, for in-person and
   (once they hold the waiver) online classes. The owner confirmed this is the intended
