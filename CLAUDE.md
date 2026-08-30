@@ -39,10 +39,17 @@ on purpose: below the 20 location cards it was ~14 phone screens down and never 
 ## Key content facts
 - **Price:** $139 in person and online. The $12 shipping/handling applies **only if the
   student needs the workbook sent to them** (≈$151 total); they can also pick it up.
-- **Waiver timing (owner-confirmed):** the school requests the one-time NSC waiver on the
-  student's behalf. Waiver + workbook are often sorted **within a couple of days**, so
+- **Waiver (owner-confirmed — get this right):** the one-time NSC waiver is requested from
+  the AZ Chapter NSC at **602-222-3381**. ⚠️ **The school CANNOT get it for the student.**
+  The student must speak with the NSC themselves. The school can offer to set up a
+  **three-way call** and stay on the line to help, but the student has to participate.
+  The same is true of getting a customer/withdrawal number from the NSC. NEVER write
+  "we'll get it for you", "we'll request it for you", or anything implying the school can
+  obtain it on the student's behalf.
+- **Waiver timing:** waiver + workbook are often sorted **within a couple of days**, so
   students can frequently take the class **that same business week**. Keep this framed as
-  easy and fast, and near the top of the online-class section.
+  easy and fast (and near the top of the online-class section), but hedged —
+  "often"/"frequently", never a guarantee.
 - **Phone — English:** (602) 892-3570 (`tel:6028923570`).
 - **Phone — Spanish:** (602) 899-1922 (`tel:6028991922`). The two language pages use
   different numbers on purpose.
@@ -54,10 +61,11 @@ on purpose: below the 20 location cards it was ~14 phone screens down and never 
   3. email address
   4. a **textable** phone number
 
-  A **physical street address** is required if the workbook is being mailed (FedEx, no PO
-  boxes). If the student has no AZ license or doesn't know their customer/withdrawal
-  number, **the school will get one** from the AZ Chapter NSC, or the student can call NSC
-  at 602-222-3381 themselves. Students can send all of this by phone, text, or email.
+  A **physical street address** is required if the workbook is being sent (FedEx, no PO
+  boxes); students can also pick it up. If the student has no AZ license or doesn't know
+  their customer/withdrawal number, **they call the AZ Chapter NSC at 602-222-3381** — see
+  the waiver note above: the school assists on a three-way call but cannot do it for them.
+  Students can send all of this by phone, text, or email.
 - **Self-registration:** students can book their own seat with the NSC tool in
   `#register` — it lists **every location and every available date**, for in-person and
   (once they hold the waiver) online classes. The owner confirmed this is the intended
