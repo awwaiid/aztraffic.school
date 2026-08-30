@@ -61,6 +61,8 @@ on purpose: below the 20 location cards it was ~14 phone screens down and never 
   3. email address
   4. a **textable** phone number
 
+  Those same four items are also what a student needs to **register themselves** in the
+  NSC tool — so present them as serving both paths, not just as "what to send us".
   With those four items **the school does the registration**. A **complete physical street
   address** is required if the workbook is being sent — including apartment, unit,
   building or space number; FedEx can't deliver to a PO box, and a missing unit number is
