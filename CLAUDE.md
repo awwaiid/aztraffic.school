@@ -58,6 +58,9 @@ on purpose: below the 20 location cards it was ~14 phone screens down and never 
   (once they hold the waiver) online classes. The owner confirmed this is the intended
   way to find in-person dates, so the page points at it repeatedly rather than listing
   per-location dates. Keep those pointers in place.
+  - ⚠️ The tool searches **by place**: a city or address is required. Searching by date
+    alone returns nothing. Every mention of the tool must tell students to enter their
+    city/address first — don't write "search by city **or** date".
 - **School #5175.** NSC waiver line: 602-222-3381. Mailing: PO Box 2, Waddell, AZ 85355.
 - **Google Analytics** gtag id `G-14DSKD6GXC` — snippet is in the `<head>` of every page.
 - The **reviews/testimonials** section in `index.html` is intentionally commented out
