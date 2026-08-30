@@ -42,13 +42,17 @@ on purpose: below the 20 location cards it was ~14 phone screens down and never 
 - **Phone — Spanish:** (602) 899-1922 (`tel:6028991922`). The two language pages use
   different numbers on purpose.
 - **Email:** kandy.trafficsafety@gmail.com
-- **Online class registration** needs **four** items from the student — date of birth,
-  AZ driver's license number, customer number, withdrawal number — plus an email address
-  and a **textable** phone number. A **physical street address** is required if the
-  workbook is being mailed (FedEx, no PO boxes). If the student has no AZ license or
-  doesn't know their customer/withdrawal number, **the school will get it** from the AZ
-  Chapter NSC, or the student can call NSC at 602-222-3381 themselves. Students can send
-  all of this by phone, text, or email.
+- **Online class registration** needs **four** items from the student (owner-confirmed):
+  1. date of birth
+  2. **any ONE of** — AZ driver's license number **OR** customer number **OR** withdrawal
+     number (one of the three is enough; do NOT list them as three separate requirements)
+  3. email address
+  4. a **textable** phone number
+
+  A **physical street address** is required if the workbook is being mailed (FedEx, no PO
+  boxes). If the student has no AZ license or doesn't know their customer/withdrawal
+  number, **the school will get one** from the AZ Chapter NSC, or the student can call NSC
+  at 602-222-3381 themselves. Students can send all of this by phone, text, or email.
 - **Self-registration:** students can book their own seat with the NSC tool in
   `#register` — it lists **every location and every available date**, for in-person and
   (once they hold the waiver) online classes. The owner confirmed this is the intended
