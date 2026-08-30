@@ -37,7 +37,12 @@ Class details → Register (`#register`). The online-class section sits **above*
 on purpose: below the 20 location cards it was ~14 phone screens down and never seen.
 
 ## Key content facts
-- **Price:** $139 in person. Virtual adds $12 shipping/handling (≈$151 total).
+- **Price:** $139 in person and online. The $12 shipping/handling applies **only if the
+  student needs the workbook sent to them** (≈$151 total); they can also pick it up.
+- **Waiver timing (owner-confirmed):** the school requests the one-time NSC waiver on the
+  student's behalf. Waiver + workbook are often sorted **within a couple of days**, so
+  students can frequently take the class **that same business week**. Keep this framed as
+  easy and fast, and near the top of the online-class section.
 - **Phone — English:** (602) 892-3570 (`tel:6028923570`).
 - **Phone — Spanish:** (602) 899-1922 (`tel:6028991922`). The two language pages use
   different numbers on purpose.

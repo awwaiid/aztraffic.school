@@ -136,6 +136,10 @@ section{padding:74px 0}
 
 /* virtual / online class section */
 .virtual{background:var(--sand-2)}
+.vfast{display:flex; gap:16px; align-items:flex-start; background:linear-gradient(135deg,rgba(217,164,65,.20),rgba(224,138,60,.10)); border:1px solid rgba(217,164,65,.55); border-radius:var(--radius); padding:22px 26px; margin-bottom:22px}
+.vfast .vfast-ic{flex:none; font-size:1.5rem; line-height:1.25}
+.vfast h3{font-size:1.24rem; margin:0 0 6px}
+.vfast p{margin:0; color:#43352a}
 .vgrid{display:grid; grid-template-columns:1fr 1fr; gap:20px; align-items:start}
 .vcard{background:var(--white); border:1px solid var(--line); border-radius:var(--radius); padding:30px; box-shadow:var(--shadow)}
 .vcard h3{font-size:1.3rem; margin:0 0 6px}
