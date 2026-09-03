@@ -42,7 +42,7 @@
     close:     'Close'
   };
 
-  // Format 6028923570 as (602) 892-3570; leave anything unexpected alone.
+  // Format 6239999911 as (623) 999-9911; leave anything unexpected alone.
   function pretty(href){
     var d = href.replace(/[^0-9]/g, '').replace(/^1/, '');
     return d.length === 10
