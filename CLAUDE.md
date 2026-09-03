@@ -104,6 +104,12 @@ on purpose: below the 20 location cards it was ~14 phone screens down and never 
     option still reaches a real mail program). Use it on any link that must not be
     intercepted.
 - **Look & feel:** edit `styles.css` (shared by all pages).
+- **Phone overflow:** `html`/`body` use `overflow-x:clip`, so anything wider than the
+  screen is silently **cut off on the right** instead of scrolling (a Galaxy user
+  reported exactly that, 2026-09-02). Buttons wrap below 620px and grid items have
+  `min-width:0` for this reason — keep it that way, and when adding long labels or new
+  grids, check at **320px and 360px with ~1.3× text scaling** (Samsung "large text"),
+  and on the Spanish page, whose strings are longer.
 - **Nav layout:** the menu collapses to a hamburger at `max-width: 1140px`. The brand
   name (`.brand-name`) is `flex-basis:100%` so it flows onto its own line below the
   `$139` badge and the rest of the nav items.
