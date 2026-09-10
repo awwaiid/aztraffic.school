@@ -137,6 +137,11 @@ on purpose: below the 20 location cards it was ~14 phone screens down and never 
 
 ## Open items (as of 2026-08-30)
 Picked up in a future session — the owner is aware of all three.
+> Competitive context (2026-09-10): a rival school, UP2SPEED, advertises **$130 flat** and
+> markets explicitly against shipping/admin fees. That makes items 1 (proof) and 3
+> (register without phoning) commercially urgent, not just nice-to-have. Full analysis:
+> [`notes/competitor-up2speed.md`](./notes/competitor-up2speed.md).
+
 1. **Testimonials — waiting on volume.** The owner collects reviews with a Google Form
    sent ~30 min after class; had **5** responses and wants **10+** before publishing.
    When ready: uncomment the reviews section in `index.html`, add the ES equivalent, and
