@@ -1,6 +1,5 @@
 // Locations data — venue + exact Google Maps link preserved from original site
 var LOCATIONS = [
-  {city:"Buckeye", venue:"Holiday Inn Express & Suites Buckeye", addr:"445 S Watson Rd, Buckeye, AZ 85326", url:"https://www.google.com/maps/search/?api=1&query=445%20S%20Watson%20Rd%20Buckeye%2C%20AZ%2085326"},
   {city:"Casa Grande", venue:"Best Western Plus Casa Grande", addr:"1918 E Florence Blvd, Casa Grande, AZ 85122", url:"https://www.google.com/maps/search/?api=1&query=1918%20E%20Florence%20Blvd%2C%20Casa%20Grande%2C%20AZ%2085122"},
   {city:"Chandler", venue:"Homewood Suites Chandler", addr:"1221 S Spectrum Blvd, Chandler, AZ 85286", url:"https://www.google.com/maps/search/?api=1&query=1221%20S%20Spectrum%20Blvd%2C%20Chandler%2C%20AZ%2085286"},
   {city:"Chandler", venue:"Hyatt Place Chandler Fashion Center", addr:"3535 W Chandler Blvd, Chandler, AZ 85226", url:"https://www.google.com/maps/search/?api=1&query=3535%20W%20Chandler%20Blvd%2C%20Chandler%2C%20AZ%2085226"},
