@@ -27,16 +27,18 @@ var LOCATIONS = [
 // past dates drop off the page on their own, and the day of the week is
 // calculated automatically so it can never be wrong.
 var VIRTUAL_CLASS_DATES = [
-  "2026-09-04",
-  "2026-09-05",
-  "2026-09-09",
-  "2026-09-12",
-  "2026-09-13",
-  "2026-09-18",
-  "2026-09-19",
-  "2026-09-23",
-  "2026-09-26",
-  "2026-09-27"
+  "2026-10-02",
+  "2026-10-03",
+  "2026-10-07",
+  "2026-10-10",
+  "2026-10-11",
+  "2026-10-16",
+  "2026-10-17",
+  "2026-10-21",
+  "2026-10-24",
+  "2026-10-25",
+  "2026-10-30",
+  "2026-10-31"
 ];
 
 // Renders the upcoming virtual class schedule, grouped by month, soonest first.
