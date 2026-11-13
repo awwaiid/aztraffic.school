@@ -216,7 +216,7 @@ section{padding:74px 0}
 .acc .body strong{color:var(--ink)}
 
 /* reviews */
-.rev-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:20px}
+.rev-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:20px}
 .rev{background:var(--white); border:1px solid var(--line); border-radius:var(--radius); padding:26px; box-shadow:var(--shadow); display:flex; flex-direction:column}
 .stars{color:var(--gold); font-size:1.05rem; letter-spacing:2px; margin-bottom:12px}
 .rev p{margin:0 0 18px; font-size:1.02rem; color:#3a2e24; font-style:italic; line-height:1.6}
