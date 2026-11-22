@@ -413,7 +413,69 @@
         <p>"April was great!"</p>
         <div class="who"><span class="av">D</span><span><b>Donelle A.</b><span>Google review</span></span></div>
       </div>
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"very nice very positive instructor, loved the little story times we had"</p>
+        <div class="who"><span class="av">Y</span><span><b>Yoselin</b><span>Google review</span></span></div>
+      </div>
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"It was eye opener and a lot of good information and Duane was great and real cool"</p>
+        <div class="who"><span class="av">A</span><span><b>Andrew</b><span>Google review</span></span></div>
+      </div>
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"Great place very positive environment. Straight forward class. Duane Whitlock Explain everything carefully and made time to discuss our personal experiences"</p>
+        <div class="who"><span class="av">G</span><span><b>Gabriel R.</b><span>Google review</span></span></div>
+      </div>
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"Great director he’s a kind cool guy, honest and very helpful. The class was easy to follow and understand."</p>
+        <div class="who"><span class="av">T</span><span><b>Teresa L.</b><span>Google review</span></span></div>
+      </div>
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"Very nice and respectful"</p>
+        <div class="who"><span class="av">L</span><span><b>Leah R.</b><span>Google review</span></span></div>
+      </div>
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"Tammy did a great job and made me feel comfortable"</p>
+        <div class="who"><span class="av">A</span><span><b>Angel B.</b><span>Google review</span></span></div>
+      </div>
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"Even though this class was mandatory it was still a great experience. No hidden fees."</p>
+        <div class="who"><span class="av">C</span><span><b>Cecilia D.</b><span>Google review</span></span></div>
+      </div>
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"Awsome instructor made class enjoyable and easy to pay attention"</p>
+        <div class="who"><span class="av">R</span><span><b>Rick S.</b><span>Google review</span></span></div>
+      </div>
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"It went very well and made it interesting with all the conversation"</p>
+        <div class="who"><span class="av">C</span><span><b>Chris L.</b><span>Google review</span></span></div>
+      </div>
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"April is engaging and makes the day go by."</p>
+        <div class="who"><span class="av">J</span><span><b>Jacqueline O.</b><span>Google review</span></span></div>
+      </div>
     </div>
+    <script>
+      // Show 6 reviews picked at random on each visit (all show if JS is off).
+      (function () {
+        var grid = document.querySelector('#reviews .rev-grid');
+        if (!grid) return;
+        var revs = Array.prototype.slice.call(grid.children);
+        for (var i = revs.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1)), t = revs[i]; revs[i] = revs[j]; revs[j] = t;
+        }
+        revs.forEach(function (el, i) { grid.appendChild(el); el.style.display = i >= 6 ? 'none' : ''; });
+      })();
+    </script>
     <p class="rev-note">★★★★★ &nbsp;Find us on Google to read more reviews and leave your own.</p>
   </div>
 </section>
