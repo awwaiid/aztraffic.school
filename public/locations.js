@@ -1,4 +1,5 @@
-// Locations data — venue + exact Google Maps link preserved from original site
+// Locations data — venue + exact Google Maps link preserved from original site.
+// Optional until:"YYYY-MM-DD" = last day the location is shown; it drops off the page on its own after that.
 var LOCATIONS = [
   {city:"Casa Grande", venue:"Best Western Plus Casa Grande", addr:"1918 E Florence Blvd, Casa Grande, AZ 85122", url:"https://www.google.com/maps/search/?api=1&query=1918%20E%20Florence%20Blvd%2C%20Casa%20Grande%2C%20AZ%2085122"},
   {city:"Chandler", venue:"Homewood Suites Chandler", addr:"1221 S Spectrum Blvd, Chandler, AZ 85286", url:"https://www.google.com/maps/search/?api=1&query=1221%20S%20Spectrum%20Blvd%2C%20Chandler%2C%20AZ%2085286"},
@@ -7,7 +8,7 @@ var LOCATIONS = [
   {city:"Glendale", venue:"Everhome Suites Glendale", addr:"9775 W Northern Ave, Glendale, AZ 85305", url:"https://www.google.com/maps/search/?api=1&query=9775%20W.%20Northern%20Ave%2C%20Glendale%2C%20AZ%2085305"},
   {city:"Goodyear", venue:"SpringHill Suites Goodyear", addr:"1370 N Bullard Ave, Goodyear, AZ 85338", url:"https://www.google.com/maps/search/?api=1&query=1370%20N%20Bullard%20Ave%2C%20Goodyear%2C%20AZ%2085338"},
   {city:"Happy Valley", venue:"Best Western Plus Executive Residency", addr:"2108 W Whispering Wind Dr, Phoenix, AZ 85085", url:"https://www.google.com/maps/search/?api=1&query=2108%20W%20Whispering%20Wind%20Dr%2C%20Phoenix%2C%20AZ%2085085"},
-  {city:"Mesa / Chandler", venue:"Holiday Inn Mesa", addr:"1600 S Country Club Dr, Mesa, AZ 85210", url:"https://www.google.com/maps/search/?api=1&query=1600%20S%20Country%20Club%20Dr%2C%20Mesa%2C%20AZ%2085210"},
+  {city:"Mesa / Chandler", venue:"Holiday Inn Mesa", until:"2026-12-31", addr:"1600 S Country Club Dr, Mesa, AZ 85210", url:"https://www.google.com/maps/search/?api=1&query=1600%20S%20Country%20Club%20Dr%2C%20Mesa%2C%20AZ%2085210"},
   {city:"Mesa Gateway", venue:"Holiday Inn Express & Suites Gilbert-Mesa Gateway", addr:"5530 S Power Rd, Gilbert, AZ 85295", url:"https://www.google.com/maps/search/?api=1&query=5530%20S%20Power%20Rd%2C%20Gilbert%2C%20AZ%2085295"},
   {city:"Peoria", venue:"Comfort Suites Peoria", addr:"8473 W Paradise Lane, Peoria, AZ 85382", url:"https://www.google.com/maps/search/?api=1&query=8473%20W%20Paradise%20Lane%2C%20Peoria%2C%20AZ%2085382"},
   {city:"Phoenix", venue:"MetroCenter Business Park", addr:"10000 31st Ave, Phoenix, AZ 85051", url:"https://www.google.com/maps/search/?api=1&query=10000%2031st%20Ave%2C%20Phoenix%2C%20AZ%2085051"},
@@ -16,9 +17,7 @@ var LOCATIONS = [
   {city:"Surprise", venue:"Best Western Plus Surprise", addr:"13337 W Grand Ave, Surprise, AZ 85374", url:"https://www.google.com/maps/search/?api=1&query=13337%20W%20Grand%20Ave%2C%20Surprise%2C%20AZ%2085374"},
   {city:"Tempe", venue:"Hampton Inn Tempe / Phx Airport", addr:"1550 S 52nd St, Tempe, AZ 85281", url:"https://www.google.com/maps/search/?api=1&query=1550%20S%2052nd%20St%2C%20Tempe%2C%20AZ%2085281"},
   {city:"Tolleson", venue:"Best Western Tolleson", addr:"8421 W McDowell Rd, Tolleson, AZ 85353", url:"https://www.google.com/maps/search/?api=1&query=8421%20W.%20McDowell%20Rd%2C%20Tolleson%2C%20AZ%2085353"},
-  {city:"Tucson", venue:"Country Inn & Suites", addr:"705 N Freeway Blvd, Tucson, AZ 85745", url:"https://www.google.com/maps/search/?api=1&query=705%20N.%20Freeway%20Blvd%2C%20Tucson%2C%20AZ%2085745"},
-  {city:"Wickenburg", venue:"Cobblestone Hotel & Suites", addr:"575 Bass Road, Wickenburg, AZ 85390", url:"https://www.google.com/maps/search/?api=1&query=575%20Bass%20Road%2C%20Wickenburg%2C%20AZ%2085390"},
-  {city:"Yuma", venue:"Everhome Suites Yuma", addr:"2011 E 18th St, Yuma, AZ 85365", url:"https://www.google.com/maps/search/?api=1&query=2011%20E%2018th%20St%2C%20Yuma%2C%20AZ%2085365"}
+  {city:"Tucson", venue:"Country Inn & Suites", addr:"705 N Freeway Blvd, Tucson, AZ 85745", url:"https://www.google.com/maps/search/?api=1&query=705%20N.%20Freeway%20Blvd%2C%20Tucson%2C%20AZ%2085745"}
 ];
 
 // Upcoming virtual class dates.
@@ -87,6 +86,8 @@ function renderSchedule(labels){
 // labels: { all, showing, of, locations, directions, schedule }
 function initSite(labels){
   if(labels.schedule) renderSchedule(labels.schedule);
+  var todayStr = (function(d){ return d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2); })(new Date());
+  LOCATIONS = LOCATIONS.filter(function(l){ return !l.until || todayStr <= l.until; });
   var grid = document.getElementById('locGrid');
   var countEl = document.getElementById('locCount');
   function render(list){
